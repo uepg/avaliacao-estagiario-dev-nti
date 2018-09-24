@@ -13,9 +13,5 @@ Repositório com questões/desafios de desenvolvimento para estagiários NTI
 
   Somos conscientes de que o candidato está em nível de aprendizado, desta forma, deixamos claro que os desafios exigem um grau acima ao de exercícios de programação em sala de aula, porém não em nível de experts ou experientes programadores, sendo que todo candidato terá a oportunidade de defender sua solução em entrevista pessoal. 
 
-* Qualquer linguagem de programação e SGBD pode ser utilizado. Apenas como orientação de preferência, pois são as tecnologias utilizadas no NTI: 
-  * PHP, Javascript PostgreSQL
-  * Frameworks: Laravel, jQuery e VueJS
-  
-* Reiterando que se você não conhece nehnuma destas tecnologias, está livre para empregar qualquer outra nas soluções dos desafios.
+* Qualquer linguagem de programação e SGBD pode ser utilizado. 
 
