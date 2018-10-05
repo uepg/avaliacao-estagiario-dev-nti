@@ -10,4 +10,4 @@ Responda as questões neste mesmo arquivo.
 
 4. Conhece API REST? Para que são utilizadas? Cite dois exemplos.
 
-5. Conhece o conceito de AJAX? Descreva- e a tecnologia utilizada.
+5. Conhece o conceito de AJAX? Descreva a tecnologia utilizada.
