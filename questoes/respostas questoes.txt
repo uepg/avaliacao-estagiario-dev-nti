@@ -1,0 +1,35 @@
+Conhece GIT? Já o utilizou em algum projeto?
+R: Conheci em uma aula de sistemas operacionais, apesar de já ter utilizado anteriormente para um trabalho de
+programação orientada a objetos.
+
+Qual a diferença entre GIT e GITHUB?
+R: GIT é um controle de versão de arquivos, onde nele pode-se desenvolver projetos simultaneamente com diversas
+pessoas.
+GITHUB é um serviço web onde pode-se hospedar os projetos, podendo posteriormente acompanhar, e contribuir
+com os mesmos.
+
+Conhece ou tem experiência com desenvolvimento Web? Descreva como se dá a requisição HTTP entre um cliente e 
+o servidor, e como se dá a resposta.
+R: Nunca tive experiência com desenvolvimento web. A requisição HTTP se dá via mensagens, o cliente envia uma
+mensagem de requisição e o servidor uma mensagem de resposta ao cliente com a requisição. Esta mensagem é composta
+por cabeçalho e corpo, sendo o cabeçalho utilizado para transferir informações adicionais entre o cliente e o
+servidor, já o corpo onde é utilizado por exemplo para enviar o recurso requisitado pelo cliente, ou em uma
+mensagem de requisição onde pode-se conter dados que serão enviados diretamente pelo usuário ao servidor ou um
+arquivo que também é enviado para o servidor.
+
+Conhece API REST? Para que são utilizadas? Cite dois exemplos.
+R: API acrônimo de "Application Programming Interface", é um modelo de rotinas e padrões estabelecidas e documentadas
+por uma tal aplicação, possibilita que outras aplicações consigam utilizar as funcionalidades desta aplicação sem 
+a necessidade desta outra aplicação reconhecer detalhes da implementação desse software. REST acrônimo de "Representational
+State Transfer", é uma abstração da arquitetura da web, consiste em regras para a criação de um projeto com interfaces bem
+definidas. Um exemplo da importância da REST é a possibilidade de comunicação entre aplicações.
+Um exemplo de REST nota-se na utilização dos métodos HTTP para manipular recursos, onde o método GET serve para obter-se
+os dados de um recurso, já o PUT serve para substituir os dados de um recurso.
+
+Conhece o conceito de AJAX? Descreva a tecnologia utilizada.
+R: AJAX acrônimo de "Asynchronous Javascript and XML", descreve um conjunto de técnicas para desenvolvimento e programação
+web utilizando linguagens como Javascript e XML para carregar informações de forma assíncrona. O AJAX permite a criação de
+páginas mais criativas e com maior interação com o usuário, pois o usuário não precisa aguardar a página ser totalmente
+carregada quando faz uma requisição, pois o servidor retorna apenas os dados relevantes.
+
+Obs: questões respondidas com auxílio de conteúdo disponível na internet.
