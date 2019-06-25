@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Ana Barbosa
 
-E-mail:
+E-mail: anacbse@gmail.com
 
-Telefone:
+Telefone: 42 9 9997 0068
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 14062726
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 9/10
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Desenvolvimento de pacote R com GUI usando Tcl/Tk; Conhecimento em R, C, Tcl, Java e (agora, em nível iniciante) PHP.
