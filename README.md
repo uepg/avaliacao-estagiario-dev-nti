@@ -17,6 +17,8 @@ Repositório com questões/desafios de desenvolvimento para estagiários NTI
 
 ## Para referência
 
+ Necessário conhecimeto básico sobre protocolo IPV4 
+
 Apenas como orientação de preferência tecnológica, pois são as plataformas utilizadas no NTI: 
 
   * Desenvolvimento para Web
