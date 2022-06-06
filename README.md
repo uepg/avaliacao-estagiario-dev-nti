@@ -15,6 +15,8 @@ Repositório com questões/desafios de desenvolvimento para estagiários NTI
 
 * Qualquer linguagem de programação e SGBD pode ser utilizado. 
 
+## Recomenda-se ter conhecimeto básico de protocolo IPV4
+
 ## Para referência
 
 Apenas como orientação de preferência tecnológica, pois são as plataformas utilizadas no NTI: 
