@@ -2,20 +2,22 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Matheus Henrique Barbosa Miranda
 
-E-mail:
+E-mail: matheushenrique603@gmail.com
 
-Telefone:
+Telefone: (44)99842-5358
 
-Cidade:
+Cidade: Ponta Grossa -  PR
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 16022526
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 5º Ano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Linguagens: PHP, C, C++, Java, Javascript, Python e Lua. As experiências são trabalhos das disciplinas, alguns projetos pessoais (projetos com Arduino e bots com python, por exemplo). Experiência com desenvolvimento web PHP/HTML/MySql aplicado em projetos pessoais e na disciplina de projeto de software.
+Experiencia com distribuições linux (Arch Linux e Ubuntu como principais em minhas maquinas), macOS e Windows.
+Experiencia iniciante em servidores Linux remotos (Ubuntu Server).
