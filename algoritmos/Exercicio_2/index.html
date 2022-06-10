@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Exercício 2 - Animais</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script>
+$(function(){
+$(document).on("click", "#botao", function(e) {
+e.preventDefault();
+{       
+var infom = $("#form").serialize();
+        $("#resultado").addClass('loader');                
+        $.ajax({            
+            beforeSend: function() { },         
+            type: "POST",
+            url: "SimAcao.php",
+            data:infom,          
+            success: function(result){      
+            $("#resultado").removeClass('loader');
+            $('#resultado').html(result);
+            }
+        });     
+        e.preventDefault(); 
+}
+}); 
+});
+</script>
+    <style>
+    .loader{
+        height:100px;
+        background-size: 30px;
+    }
+    </style>
+  <body>
+      <div class="container">
+        <br>
+                 
+          <p class="h1 text-center">Escolha um animal:</p>
+          <br>
+            <form id="form">
+            <select name="animal" class="form-select text-center">
+                <option value="Andorinha">Andorinha</option>
+                <option value="Cão" selected>Cão</option>
+                <option value="Cavalo">Cavalo</option>
+                <option value="Elefante">Elefante</option>
+                <option value="Galinha" selected>Galinha</option>
+                <option value="Gato">Gato</option>
+                <option value="Pato">Pato</option>
+            </select>
+            <br/>
+            <div class="text-center">
+            <button id = "botao" class="btn btn-success">Enviar</button>
+            </div>
+            </form>
+            <br>
+            <p class="h4 text-center">Resposta do animal escolhido:</p><br>
+            <div class="text-center alert alert-secondary" role="alert" id="resultado"></div>
+      </div>
+  </body>
+  
+</html>

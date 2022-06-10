@@ -1,0 +1,3 @@
+As linguagens utilizadas foram PHP, para desenvolver as classes, e Javascript, para usar um AJAX e retornar os resultados da classe de ações para o documento HTML.
+Tive que relembrar alguns conceitos de programação orientada a objetos, e fazer uma pesquisa rápida sobre como implementar objetos em PHP, pois nunca havia feito um programa 100% orientado com PHP. Também pesquisei um pouco sobre AJAX.
+A maior dificuldade foi com a função include do PHP, pois estava dando erro de biblioteca duplicada (por exemplo, quando eu incluia a classe do cão, dava conflito de duplicidade com a classe do elefante pois ambas incluem a classe mamifero). O problema foi solucionado trocando os "includes" por "require_once".
