@@ -10,7 +10,7 @@ Telefone: 42 99963-4266
 
 Cidade: Ponta Grossa - PR
 
-Instituição de Ensino: Universidade Estadual de Ponta Grossa
+Instituição de Ensino: Universidade Estadual de Ponta Grossa - UEPG
 
 RA: 18009426
 
