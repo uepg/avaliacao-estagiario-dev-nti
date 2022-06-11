@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Mateus Felipe Ribeiro
 
-E-mail:
+E-mail: 17243526@uepg.br / mateusfrlolez@gmail.com
 
-Telefone:
+Telefone: (42) 99959-4272
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 17243526
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 5º ano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Possuo experiência em desenvolvimento web a partir da disciplina de projeto de software, onde desenvolvi um sistema de ordens de serviço, baseado em PHP, HTML, CSS, JavaScript, utilizando o framework CodeIgniter 4.
