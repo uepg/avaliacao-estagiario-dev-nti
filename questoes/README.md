@@ -27,3 +27,4 @@ Ele pode utilizar diversas tecnologias, como: HTML(criação de paginas web), CS
 
 Referências: 
 https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
+https://www.devmedia.com.br/o-que-e-o-ajax/6702
