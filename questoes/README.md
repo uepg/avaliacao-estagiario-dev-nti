@@ -13,5 +13,6 @@ Ja tive uma experiencia em desenvolver uma landing page no puro HTML/CSS, mas na
 
 
 4. Conhece API REST? Para que são utilizadas? Cite dois exemplos.
+teste
 
 5. Conhece o conceito de AJAX? Descreva a tecnologia utilizada.
