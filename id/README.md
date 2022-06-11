@@ -18,4 +18,4 @@ Curso: Engenharia de Computação
 
 Período/Série: 7º semestre/4º ano
 
-Minha experiencia com desenvolvimento: Apenas o que foi trabalho em sala de aula do curso (programas em C, Java, Python, banco no MySQL e uma landing page em HTML/CSS)
+Minha experiencia com desenvolvimento: Apenas o que foi trabalho em sala de aula do curso (programas em C, Java, Python, Lua, banco com MySQL e PostgreSQL, uma landing page em HTML/CSS e uma aplicação web usando SpringBoot)
