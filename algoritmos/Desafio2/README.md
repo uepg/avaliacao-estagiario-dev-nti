@@ -1,2 +1,2 @@
-Fiz este desafio usando Java novamente, utilizei a IDE netbeans. Foi muito mais fácil que o outro, sem dúvidas.
-POO tava fresco na mente, então acho que nesse eu fui melhor.
+Fiz este desafio usando Java novamente. Utilizei a IDE netbeans. Foi mais fácil que o outro, sem dúvidas.
+Tive que pesqusiar bem menos que pra fazer o outro.
