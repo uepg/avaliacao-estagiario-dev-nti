@@ -12,6 +12,8 @@ Framework: CodeIgniter 4
 Arquivos upados referem-se a pasta App, gerado a partir da instalação do framework, 
 comando utilizado para instalar via composer: composer create-project codeigniter4/appstarter desafioestagio
 
+Pasta Resources, deve ficar dentro da pasta public gerada pela instalação do framework, onde na mesma localiza-se
+arquivos CSS das páginas.
 
 
 # CodeIgniter 4 Application Starter
