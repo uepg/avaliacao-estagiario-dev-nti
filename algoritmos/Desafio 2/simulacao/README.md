@@ -1,1 +1,3 @@
-Desafio de n�mero 2 - OK
+Desafio de número 2 - OK
+
+Realizado utilizando Java
