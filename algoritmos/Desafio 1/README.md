@@ -13,7 +13,7 @@ Arquivos upados referem-se a pasta App, gerado a partir da instalação do frame
 comando utilizado para instalar via composer: composer create-project codeigniter4/appstarter desafioestagio
 
 Pasta Resources, deve ficar dentro da pasta public gerada pela instalação do framework, onde na mesma localiza-se
-arquivos CSS das páginas.
+arquivos CSS das páginas. Pasta vendor localiza-se todas as ferramentas como o bootstrap.
 
 
 # CodeIgniter 4 Application Starter
