@@ -9,6 +9,9 @@ Banco de Dados: MySQL.
 
 Framework: CodeIgniter 4
 
+Arquivos upados referem-se a pasta App, gerado a partir da instalação do framework, 
+comando utilizado para instalar via composer: composer create-project codeigniter4/appstarter desafioestagio
+
 
 
 # CodeIgniter 4 Application Starter
