@@ -12,6 +12,7 @@ Responda as questões neste mesmo arquivo.
   Infelizmente, nunca tive experiência com desenvolvimento Web. A falta de experiência, pratica, me acuou o interesse em aprender mais sobre as aplicações.
 
 4. Conhece API REST? Para que são utilizadas? Cite dois exemplos.
-  
+  Infelizmente, desconheço formas de utilizar a API.
 
 5. Conhece o conceito de AJAX? Descreva a tecnologia utilizada.
+  Infelizmente, sem pesquisar, tambem desconheço esse conceito.
