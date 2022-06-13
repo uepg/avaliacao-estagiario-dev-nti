@@ -1,0 +1,61 @@
+<?php echo $this->extend('Layouts/principal'); ?>
+
+
+
+<?php echo $this->section('titulo') ?><?php echo $titulo; ?><?php echo $this->endSection() ?>
+
+
+
+<?php echo $this->section('estilos') ?>
+
+<!-- estilos da view -->
+
+<?php echo $this->endSection() ?>
+
+
+
+<?php echo $this->section('conteudo') ?>
+
+<!-- conteudo da view -->
+<div class="row">
+    <div class="col-lg-6">
+        <div class="block">
+
+            <div class="block-body">
+
+                <!-- Exibe os retornos do banco -->
+
+                <?php echo form_open("itens/excluir/$item->id") ?>
+
+                <div class="alert alert-warning" role="alert">
+                    Tem certeza que deseja excluir?
+                </div>
+
+                <div class="form-group mt-5 mb-2">
+
+                    <input id="btn-salvar" type="submit" value="Sim, quero excluir" class="btn btn-danger btn-sm mr-2">
+
+                    <a href="<?php echo site_url("itens/exibir/$item->id"); ?>" class="btn btn-secondary btn-sm ml-2">Cancelar</a>
+                </div>
+
+
+                <?php echo form_close(); ?>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<?php echo $this->endSection() ?>
+
+
+
+<?php echo $this->section('scripts') ?>
+
+<!-- scripts da view -->
+
+
+<?php echo $this->endSection() ?>
