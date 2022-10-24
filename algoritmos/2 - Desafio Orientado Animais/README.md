@@ -1,3 +1,1 @@
-Esse desafio foi relativamente mais facil que o outro. Utilizei das aulas gravadas e atividades 
-entregues na materia de programaçao orientada a objetos, que tive ano passado. No geral, foi
-até mais legal de fazer que o outro hehe.
+Em relaçao ao sistema de vendas, esse projeto era muito mais simples se ser realizado. Utilizei meu conhecimento de POO para concluir essa fase do desafio, sem a necessidade de pesquisar muito mais do que era possivel extrair do material das aulas.
