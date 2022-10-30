@@ -4,7 +4,7 @@ Altere este arquivo preenchendo os campos:
 
 Nome: Ricardo Harano Pinto
 
-E-mail: 
+E-mail: ricardoharanopinto@gmail.com
 
 Telefone: (42)999832281
 
@@ -16,6 +16,6 @@ RA: 19023526
 
 Curso: Engenharia de Computação
 
-Período/Série: 4ºano
+Período/Série: 8ºsemestre/4ºano
 
-Minha experiencia com desenvolvimento: 
+Minha experiencia com desenvolvimento: Apenas o que foi aprendido em sala de aula;
