@@ -2,20 +2,21 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Luiz Eduardo Kernicki
 
-E-mail:
+E-mail: luizkernicki2706@gmail.com
 
-Telefone:
+Telefone: (42) 99989-6678
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: Unicesumar
 
-RA:
+RA: 22193320-2
 
-Curso:
+Curso: Engenharia de software - Presencial
 
-Período/Série:
+Período/Série: 3º Período 
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Possuo conhecimentos em HTML, CSS, Javascript, Git/GitHub e Python. 
+Não possuo experiência comprovada, apenas a realização de pequenos projetos nas linguagens citadas.
