@@ -1,0 +1,1 @@
+Em relaçao ao sistema de vendas, esse projeto era muito mais simples se ser realizado. Utilizei meu conhecimento de POO para concluir essa fase do desafio, sem a necessidade de pesquisar muito mais do que era possivel extrair do material das aulas.
