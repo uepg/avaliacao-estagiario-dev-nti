@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    background-color: #c7d6cc;
+    
+}
+
+.container{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+.register{
+    width:50%;
+    height:100%;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.code,.valor,.quantia,.nome_item{
+    width:70%;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #3bd46e;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding:2%;
+    margin-top: 5%;
+    filter:drop-shadow(0 4px 4px rgba(0,0,0,0.4));
+}
+
+.quantia::placeholder{
+    color: white;;
+}
+
+.valor::placeholder{
+    color: white;;
+}
+
+.code::placeholder{
+    color: white;;
+}
+
+.nome_item::placeholder{
+    color: white;
+}
+
+
+.info input[type = button]{
+    cursor: pointer;
+    width:200px;
+    height:60px;
+    color: #3bd46e;
+    font-size: 18px;
+    margin:5% 0;
+    background-color: transparent;
+    border: 3px solid #3bd46e;
+    transition: 0.2s;
+    filter:drop-shadow(0 4px 4px rgba(0, 0, 0, 0.164));
+}
+
+.info input[type = button]:hover{
+    background-color: #3bd46e;
+    color:white;
+}
+
+.info_display{
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info_display::-webkit-scrollbar{
+    display: none;
+}
+
+.info_wrapper{
+    height:60px;
+    width:90%;
+    background-color: #3bd46e;
+    filter:drop-shadow(0 4px 4px rgba(0,0,0,0.4));
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding:0 2%;
+}
+
+.info_wrapper span{
+    margin: 0 5%;
+    font-size: 24px;
+    color:white;
+}
+
+.list{
+    width:100%;
+    height: 120px;
+    text-align: center;
+    color:white;
+    font-size: 32px;
+}
+
+@media screen and (max-width:1550px){
+    .container{
+        height: auto;
+        flex-direction: column;
+    }
+    .register{
+        width: 100%;
+    }
+    .info_display{
+        width: 100%;
+    }
+
+    .list{
+        padding:2%;
+    }
+}

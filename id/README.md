@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome:Rafael Zachesky de Oliveira
 
-E-mail:
+E-mail:rafael.zachesky@gmail.com
 
-Telefone:
+Telefone:(42)999562778
 
-Cidade:
+Cidade:Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino:Univerisidade Estadual de Ponta Grossa 
 
-RA:
+RA:21010026
 
-Curso:
+Curso:Engenharia de computação
 
-Período/Série:
+Período/Série:3°periodo
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento:Não possuo experiencia trabalhando em empresa, porém prático programação web a 2 anos
