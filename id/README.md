@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Lucas Sachs
 
-E-mail:
+E-mail: lucas_sachs@outlook.com
 
-Telefone:
+Telefone: (42) 99994-8125
 
-Cidade:
+Cidade: Ponta Grossa - PR
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa(UEPG)
 
-RA:
+RA: 22016423
 
-Curso:
+Curso: Engenharia de Software
 
-Período/Série:
+Período/Série: Cursando o 2° ano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Possuo experiência em desenvolvimento de jogos, modelagem 3D e texturização. Participei do desenvolvimento do projeto de jogo: Take Your Pills, feito por uma equipe de amigos inteiramente brasileira, onde atuei no cargo de Diretor Geral e Programador.  
