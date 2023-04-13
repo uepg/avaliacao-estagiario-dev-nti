@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SvCliente</servlet-name>
+        <servlet-class>controle.SvCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvProduto</servlet-name>
+        <servlet-class>controle.SvProduto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvVenda</servlet-name>
+        <servlet-class>controle.SvVenda</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SvCliente</servlet-name>
+        <url-pattern>/SvCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvProduto</servlet-name>
+        <url-pattern>/SvProduto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvVenda</servlet-name>
+        <url-pattern>/SvVenda</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
