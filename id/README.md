@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Cleberton Kobay dos Santos
 
-E-mail:
+E-mail: clebertonkobay@gmail.com
 
-Telefone:
+Telefone: (42) 984231500
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual De Ponta Grossa
 
-RA:
+RA: 20017326
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 7° Periodo / 4° Ano 
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Além do que foi aprendido em sala, desenvolvi alguns projetos pessoais com JavaScript,HTML,CSS e PHP com framework Laravel.
