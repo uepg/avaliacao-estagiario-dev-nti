@@ -36,7 +36,7 @@
                     ArrayList<Venda> vendas = vd.pesquisar("SELECT * FROM venda");
                     for (Venda ve : vendas)
                     {
-                    ArrayList<Produto> produtos = vp.pesquisar("SELECT * FROM venda_produto WHERE cod_venda="+ve.getCod_venda());
+                    ArrayList<ProdutoVendido> produtos = vp.pesquisar("SELECT * FROM venda_produto WHERE cod_venda="+ve.getCod_venda());
                     String nome = dc.getById(Integer.toString(ve.getCliente())).getNome();
                 %>
              
@@ -46,9 +46,9 @@
                     <td><%=nome%></td>
                     <td><ul>
                         <%
-                        for(Produto p : produtos){
+                        for(ProdutoVendido p : produtos){
                         %>
-                            <li><%=p.getNome() %></li>
+                            <li><%=p.getNome()%> <%=p.getQuantidade()%> </li>
                         <%
                              }
                         %>

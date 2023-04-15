@@ -28,9 +28,9 @@ public class DAOVenda_Produto {
         }
         return r;
     }
-     public ArrayList<Produto> pesquisar(String sql)
+     public ArrayList<ProdutoVendido> pesquisar(String sql)
 	{
-		ArrayList<Produto> vet = new ArrayList<>();
+		ArrayList<ProdutoVendido> vet = new ArrayList<>();
 		
 		ResultSet r = con.pesquisar(sql);
                 try 
@@ -39,7 +39,10 @@ public class DAOVenda_Produto {
                     {
                         DAOProduto dp = new DAOProduto();
                         Produto p = dp.getById(r.getString("cod_produto"));
-                        vet.add(p);
+                        ProdutoVendido pv = new ProdutoVendido();
+                        pv.setNome(p.getNome());
+                        pv.setQuantidade(r.getInt("quantidade"));
+                        vet.add(pv);
                     }
                 } 
                 catch (SQLException ex) {
