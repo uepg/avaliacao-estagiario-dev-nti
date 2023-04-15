@@ -64,7 +64,15 @@ public class SvVenda extends HttpServlet {
                aux = request.getParameter( String.valueOf(p.getCod_produto()));
                if(Integer.parseInt(aux) > 0){
                    svalor = svalor+ p.getValor_unidade()*Integer.parseInt(aux);
+                   qnt = qnt + Integer.parseInt(aux);
                }
+            }
+            if(qnt > 10){
+                svalor = (float) (svalor*0.95);
+            }else if(qnt > 20){
+                 svalor = (float) (svalor*0.9);
+            }else if(qnt > 30){
+                 svalor = (float) (svalor*0.80);
             }
             
             Venda v = new Venda();

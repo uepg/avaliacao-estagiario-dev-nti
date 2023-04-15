@@ -42,9 +42,7 @@ public class DAOVenda {
                         v.setData(r.getString("data"));
                         v.setCliente(r.getInt("cod_cliente"));
                         v.setValorTotal(r.getFloat("valorTotal"));
-
                         vet.add(v);
-
                     }
                 } 
                 catch (SQLException ex) {
