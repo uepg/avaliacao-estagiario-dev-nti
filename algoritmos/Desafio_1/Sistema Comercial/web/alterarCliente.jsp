@@ -13,26 +13,37 @@
         Cliente c = d.getById(request.getParameter("id"));
     %>
     
-    <body>
-       <header style="display: flex; justify-content: space-between; ">
-            <h2>Alterar - Clientes</h2>
-            <a class="btn btn-primary" style="display: flex; align-items: center" href="/SistemaComercial">Voltar</a>
+    <body style="background-color: gray">
+       <header >
+            <nav class="navbar navbar-expand-lg bg-black bg-gradient border" data-bs-theme="dark">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="cadCliente.jsp">Cadastrar Cliente</a>
+                        <a class="nav-link" href="listarClientes.jsp">Listar Clientes</a>
+                        <a class="nav-link" href="cadProduto.jsp">Cadastrar Produto</a>
+                        <a class="nav-link" href="listarProdutos.jsp">Listar Produtos</a>
+                        <a class="nav-link" href="vender.jsp">Vender</a>
+                        <a class="nav-link" href="listarVendas.jsp">Listar Vendas</a>
+                    </div>
+                </div>
+            </nav>
+            <h2 style="text-align: center; margin:20px 0">ALterar - Clientes</h2>
         </header>
         
         <fieldset style="width: 50vw; margin: auto" >
             <legend></legend>
-        <form class="form-control" action="/SistemaComercial/SvCliente" method="POST">
+        <form class="form-control" data-bs-theme="dark" action="/SistemaComercial/SvCliente" method="POST">
             <label for="nome">Nome:</label>
-            <input class="form-control" type="text" name="nome" id="nome" value="<%=c.getNome()%>">
+            <input class="form-control bg-light-subtle" type="text" name="nome" id="nome" value="<%=c.getNome()%>">
             </br>
             <label for="cpf">CPF:</label>
-            <input class="form-control" type="text" name="cpf" id="cpf" value="<%=c.getCpf()%>">
+            <input class="form-control bg-light-subtle" type="text" name="cpf" id="cpf" value="<%=c.getCpf()%>">
             </br>
             <label for="email">Email:</label>
-            <input class="form-control" type="text" name="email" id="email" value="<%=c.getEmail()%>">
+            <input class="form-control bg-light-subtle" type="text" name="email" id="email" value="<%=c.getEmail()%>">
             </br>
             <label for="celular">Celular:</label>
-            <input class="form-control" type="text" name="celular" id="tel" value="<%=c.getCelular()%>">
+            <input class="form-control " type="text" name="celular" id="tel" value="<%=c.getCelular()%>">
             </br>
             
             <input type="hidden" name="ACAO" value="ALTERAR"/><br>
