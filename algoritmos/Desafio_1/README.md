@@ -1,0 +1,1 @@
+Usei o NetBeans como IDE, a linguagem Java e XAMPP com Mysql como Banco de dados. Foi bem dificil realizar esse desafio, já tinha feito alguns CRUDs, porém tive algumas dificuldades em entender a lógica necessária para retornar os valores desejados do banco de dados. Tive que estudar mais afundo como usa Servlet e alguns conceitos e funções em Java. 
