@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Alisson Luiz de Lara
 
-E-mail:
+E-mail: alissonldelara@gmail.com
 
-Telefone:
+Telefone: 42 999080726
 
-Cidade:
+Cidade: Ponta Grossa - PR
 
-Instituição de Ensino:
+Instituição de Ensino: UEPG
 
-RA:
+RA: 20000323
 
-Curso:
+Curso: Engenharia de Software
 
-Período/Série:
+Período/Série: 3ª série
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: desenvolvimento de projetos pessoais backend, utilizando NodeJs/Express.
