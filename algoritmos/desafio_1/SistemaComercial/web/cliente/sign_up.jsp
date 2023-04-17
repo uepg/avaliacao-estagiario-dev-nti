@@ -47,6 +47,62 @@
 
 </style>
 
+<style>
+    * {
+        font-family: system-ui;
+        text-align: center;
+    }
+
+    form {
+        margin: auto;
+        width: 20%;
+        text-align: center;
+        border: #777 1px solid;
+    }
+
+    h3 {
+        margin: 0px;
+    }
+
+    a:link, a:hover, a:active, a:visited {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .header {
+        overflow: hidden;
+        background-color: #f1f1f1;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .header span, .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .header a {
+        margin-left: 1rem;
+    }
+
+    .header a:hover {
+        background-color: #d1d1d1;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+</style>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -56,6 +112,13 @@
         <title>Criar conta</title>
     </head>
     <body>
+        <div class="header">
+            <span class="logo">Sistema Comercial</span>
+            <div class="header-right">
+                <a class="active" href="index.jsp">Home</a> 
+                <a href="/SistemaComercial/">Sair</a>
+            </div>
+        </div>
         <%
             String compare = "true";
             String aux = request.getParameter("empty");

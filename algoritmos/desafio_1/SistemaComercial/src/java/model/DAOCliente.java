@@ -25,8 +25,6 @@ public class DAOCliente {
 
         int r = 0;
 
-        System.out.println(c.getSenha());
-
         if (c != null) {
             r = con.inserir("INSERT INTO clientes(nome, email, telefone, cpf, senha) VALUES"
                     + "('" + c.getNome() + "','" + c.getEmail() + "','" + c.getTelefone() + "','" + c.getCpf() + "','" + c.getSenha() + "')"
@@ -72,8 +70,6 @@ public class DAOCliente {
 
     public boolean alterar(Cliente c) {
         int r;
-
-        System.out.println(c.getCod_cliente());
 
         r = con.atualizar("UPDATE clientes SET nome='" + c.getNome()
                 + "', email='" + c.getEmail()

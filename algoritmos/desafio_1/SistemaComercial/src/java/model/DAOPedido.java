@@ -35,8 +35,7 @@ public class DAOPedido {
 
             for (InfoPedido ip : info_pedido) {
                 infoPedido.inserir(ip, cod_pedido);
-                System.out.println(produto.atualizar_estoque(ip.getCod_produto(), ip.getQuantidade_produto()));
-                
+                produto.atualizar_estoque(ip.getCod_produto(), ip.getQuantidade_produto());
             }
         }
     }

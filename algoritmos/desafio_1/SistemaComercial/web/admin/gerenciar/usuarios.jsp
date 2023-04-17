@@ -30,11 +30,12 @@
 <style>
     * {
         font-family: system-ui;
+        font-weight: bold;
     }
 
     form {
         margin: auto;
-        width: 20%;
+        width: 40%;
         text-align: center;
         border: #777 1px solid;
     }
@@ -80,6 +81,23 @@
         float: right;
     }
 
+    table, thead, tbody, th, tr, td {
+        border: 1px black solid;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+    td, th, tr {
+        width: 20%;
+    }
+
+    tbody tr:nth-child(odd) {
+        background: #9A9;
+    }
+
 </style>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" import="model.Cliente, java.util.ArrayList"%>
@@ -98,6 +116,9 @@
                     <a href="/SistemaComercial/admin/sairAdmin.jsp">Sair</a>
                 </div>
             </div>
+            
+            <h2 style="text-align: center">Produtos:</h2>
+        
             <table>
                 <thead>
                 <th>id usuário</th>

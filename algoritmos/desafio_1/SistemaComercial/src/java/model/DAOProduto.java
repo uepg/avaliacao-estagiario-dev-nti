@@ -33,7 +33,7 @@ public class DAOProduto {
     }
     
     public int atualizar_estoque(int id, int qtd) {
-        int r = con.atualizar("UPDATE produtos SET quantidade_ = quantidade_estoque - " + qtd
+        int r = con.atualizar("UPDATE produtos SET quantidade_vendida = quantidade_vendida + " + qtd
                 + ", quantidade_estoque = quantidade_estoque - " + qtd
                 + "  WHERE cod_produto = " + id);
     

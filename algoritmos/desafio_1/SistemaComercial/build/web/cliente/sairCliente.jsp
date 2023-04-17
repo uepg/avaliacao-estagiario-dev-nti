@@ -16,7 +16,7 @@
     
     for(int i = 0; i < cookies.length; ++i) {
         cookie = cookies[i];
-        System.out.println(cookie.getMaxAge());
+        cookie.getMaxAge();
         if(cookie.getName().equals(sign_name)) {
             Cookie kill_cookie = new Cookie(sign_name, "kill");
             kill_cookie.setPath("/SistemaComercial");

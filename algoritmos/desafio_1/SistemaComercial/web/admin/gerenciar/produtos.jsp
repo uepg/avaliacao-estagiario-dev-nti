@@ -95,7 +95,7 @@
     }
 
     tbody tr:nth-child(odd) {
-        background: #99F;
+        background: #9A9;
     }
 
 </style>

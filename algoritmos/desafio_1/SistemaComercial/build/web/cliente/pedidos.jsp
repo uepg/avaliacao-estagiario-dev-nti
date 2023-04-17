@@ -43,11 +43,12 @@
     * {
         font-family: system-ui;
         text-align: center;
+        font-weight: bold;
     }
 
     form {
         margin: auto;
-        width: 20%;
+        width: 40%;
         text-align: center;
         border: #777 1px solid;
     }
@@ -98,6 +99,18 @@
         border-collapse: collapse;
     }
 
+    td, th {
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+    td, th, tr {
+        width: 20%;
+    }
+
+    tbody tr:nth-child(odd) {
+        background: #9A9;
+    }
+
 </style>
 
 <%
@@ -140,7 +153,7 @@
                     ArrayList<InfoPedido> info_pedidos = ip.pesquisar("SELECT * FROM info_pedidos WHERE cod_pedido = "+ p.getCod_pedido());
                         
                     for(InfoPedido i : info_pedidos) {
-                        out.print("<p>" + i.getNome() + " " + i.getQuantidade_produto() + " " + format.format(i.getPreco_produto()) + " " + format.format(i.getPreco_total()) + "</p>");
+                        out.print("<p>" + i.getNome() + " : " + i.getQuantidade_produto() + " ; " + format.format(i.getPreco_produto()) + " ; " + format.format(i.getPreco_total()) + "</p>");
                     }
             %>
         </td> 

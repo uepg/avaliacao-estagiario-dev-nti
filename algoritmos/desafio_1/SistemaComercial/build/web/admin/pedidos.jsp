@@ -106,7 +106,7 @@
     }
 
     tbody tr:nth-child(odd) {
-        background: #99F;
+        background: #9A9;
     }
 
 </style>
@@ -143,8 +143,6 @@
                 </thead>
                 <tbody>
                     <%
-                        int produto_cont = 0;
-                        
                         for(Produto p : produtos) {
                             out.println("<tr><td>" + p.getCod_produto() + "</td>");
                             out.println("<td>" + p.getNome() + "</td>");
@@ -158,14 +156,16 @@
                                 if(old_value == null) {
                                     out.print("0");
                                 } else {
-                                    out.print(old_value);
+                                    if(Integer.parseInt(old_value) > p.getQtd_estoque()) {
+                                        out.print(p.getQtd_estoque());
+                                    } else {
+                                        out.print(old_value);
+                                    }
                                 }
                            %>"></td>
                     <%
-                            ++produto_cont;
                         }
                     %>
-                <input type="hidden" name="qtd_elementos" value="<%=produto_cont%>">
                 </tbody>
             </table>
             <br>
@@ -182,7 +182,6 @@
 
                 double total = 0, preco = 0;
                 String color = "";
-                int qtd_elementos = Integer.parseInt(request.getParameter("qtd_elementos"));
                 
                 int cont = 0;
         %>
@@ -205,24 +204,33 @@
 
                         if(aux != null && Integer.parseInt(aux) > 0) {
                             int qtd = Integer.parseInt(aux);
+                            
+                            int qtd_valida;
+                            
+                            if(qtd > p.getQtd_estoque()) {
+                                qtd_valida = p.getQtd_estoque();
+                            } else {
+                                qtd_valida = qtd;
+                            }
+                            
                             tem = true;
                             
                             out.println("<tr><td>" + p.getCod_produto() + "</td>");
                             out.println("<td>" + p.getNome() + "</td>");
                             out.println("<td>" + format.format(p.getPreco()) + "</td>");
-                            out.println("<td>" + qtd + "</td>");
+                            out.println("<td>" + qtd_valida + "</td>");
                             
-                            if(qtd > 30) {
-                                preco = qtd * p.getPreco() * (1 - 0.2);
+                            if(qtd_valida > 30) {
+                                preco = qtd_valida * p.getPreco() * (1 - 0.2);
                                 color = "red";
-                            } else if(qtd > 20) {
-                                preco = qtd * p.getPreco() * (1 - 0.1);
+                            } else if(qtd_valida > 20) {
+                                preco = qtd_valida * p.getPreco() * (1 - 0.1);
                                 color = "green";
-                            } else if(qtd > 10) {
-                                preco = qtd * p.getPreco() * (1 - 0.05);
+                            } else if(qtd_valida > 10) {
+                                preco = qtd_valida * p.getPreco() * (1 - 0.05);
                                 color = "blue";
                             } else {
-                                preco = qtd * p.getPreco() * (1);
+                                preco = qtd_valida * p.getPreco() * (1);
                                 color = "black";
                             }
                             
