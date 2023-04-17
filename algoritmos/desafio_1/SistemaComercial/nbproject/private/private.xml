@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/sign_up.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/DAOInfoPedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/cliente/index.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/gerenciar/usuarios.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/InfoPedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/Pedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/Produto.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/sairAdmin.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/gerenciar/editar_produto.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/DAOProduto.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/DAOPedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/cliente/sign_up.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/control/SvCliente.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/gerenciar/criar_produto.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/control/SvAdmin.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/gerenciar/editar_usuario.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/index.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/cliente/sign_in.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/cliente/sairCliente.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/DAOCliente.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/sign_in.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/gerenciar/produtos.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/control/SvPedido.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/index.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/DAOAdmin.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/admin/pedidos.jsp</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/Admin.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/util/Conexao.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/control/SvProduto.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/src/java/model/Cliente.java</file>
+            <file>file:/C:/Users/mathe/OneDrive/Documentos/NetBeansProjects/SistemaComercial/web/cliente/pedidos.jsp</file>
+        </group>
+    </open-files>
+</project-private>
