@@ -1,6 +1,6 @@
 NOTA SOBRE O EXERCÍCIO 1
 
-	Para realizar o exercício utilizei a linguagem Python que sou um pouco habituado com a sintaxe, a resolução demorou em torno de 7 horas.
+Para realizar o exercício utilizei a linguagem Python que sou um pouco habituado com a sintaxe, a resolução demorou em torno de 7 horas.
 Com relação ao grau de dificuldade, eu definiria como médio. Porém, ficaria muito mais difícil se fosse integrar todo o sistema com um banco de dados, pois apesar de ter um conhecimento breve sobre SQL ainda não possuo segurança o suficiente para integrar projetos com bancos de dados relacionais. (Estou estudando banco de dados atualmente no 3º período da faculdade).
 
 O sistema desenvolvido na linguagem Python realiza:
