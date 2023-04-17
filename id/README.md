@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Ricardo Harano Pinto
 
-E-mail:
+E-mail: ricardoharanopinto@gmail.com
 
-Telefone:
+Telefone: (42)999832281
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa (UEPG)
 
-RA:
+RA: 19023526
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 8ºsemestre/4ºano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Apenas o que foi aprendido em sala de aula;
