@@ -57,7 +57,7 @@ class Ave extends Animal {
         }
     }
 
-    protected void Voar(String nome) {
+    private void Voar(String nome) {
         System.out.printf("Sou o animal: %s, e estou voando!\n", nome);
     }
 }

@@ -15,3 +15,4 @@ Possuo experiência com front-end apenas
 Conheço a API REST, porém nunca tive experiência com o uso dela. As APIs são utilizadas para simplificar a utilização de um programa, fazendo com que o usuário obtenha os resultados desejados sem ter que dominar completamente o funcionamento da origem dos dados. 
 
 5. Conhece o conceito de AJAX? Descreva a tecnologia utilizada.
+AJAX é um conjunto de tecnologias. É uma forma de evitar o "reload" de um site, uma vez que, graças à esse conjunto de tecnologias, toda a lógica de processamento de dados é passada ao cliente, o que faz com que o site responda mais rapidamente às requisições do usuário.

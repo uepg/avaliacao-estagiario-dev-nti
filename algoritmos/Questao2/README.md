@@ -1,0 +1,2 @@
+Linguagem utilizada: JAVA
+Dificuldade: Achei que foi um exercício de dificuldade acima da média, requisitou de um conhecimento um pouco mais profundo sobre a linguagem. Fiz pesquisas apenas para relembrar a parte de Herança e Polimorfismo.
