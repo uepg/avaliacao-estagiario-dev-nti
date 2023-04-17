@@ -1,0 +1,3 @@
+Para esse desafi foi utilizada a linguagem Java, pois é uma das linguagens que melhor suporta a orientação a objetos. Resalto que poderia ter utilizado outras linguagens que tenho conhecimento suficiente para resolver o desafio, como PHP e JavaScript, porém essas linguagens não suportam a programação orientada a objetos tão bem quanto Java.
+
+Não foi necessário pesquisa, pois já havia conhecimento necessário para resolver essa questão.
