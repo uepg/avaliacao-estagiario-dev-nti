@@ -57,6 +57,7 @@ public class DAOCliente {
      
         public boolean excluir(int id){
             int r;
+                    con.excluir("DELETE FROM venda_produto WHERE cod_cliente = "+id);
                 r = con.excluir("DELETE FROM cliente WHERE cod_cliente = "+id);
             return r > 0;
         }
