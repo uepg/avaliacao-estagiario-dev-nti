@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Matheus Bueno Bartkevicius
 
-E-mail:
+E-mail: matheusbartkev@gmail.com
 
-Telefone:
+Telefone: (42) 99934-3425
 
-Cidade:
+Cidade: Carambeí
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 20006726
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 4° série
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Possuo experiencia com projetos usando \`C\`, \`C++\` e \`TypeScript\` e frequentemente resolvo problemas de programação no LeetCode pelas contas [matheusbartkev](https://leetcode.com/matheusbartkev/) e [20006726](https://leetcode.com/20006726/)
