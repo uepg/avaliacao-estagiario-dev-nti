@@ -31,6 +31,14 @@ public class DAOProduto {
 
         return r;
     }
+    
+    public int atualizar_estoque(int id, int qtd) {
+        int r = con.atualizar("UPDATE produtos SET quantidade_ = quantidade_estoque - " + qtd
+                + ", quantidade_estoque = quantidade_estoque - " + qtd
+                + "  WHERE cod_produto = " + id);
+    
+        return r;
+    }
 
     public ArrayList<Produto> pesquisar(String sql) {
         ArrayList<Produto> vet = new ArrayList<>();
@@ -43,6 +51,7 @@ public class DAOProduto {
                 c.setNome(r.getString("nome"));
                 c.setPreco(r.getFloat("preco"));
                 c.setQtd_estoque(r.getInt("quantidade_estoque"));
+                c.setQtd_vendida(r.getInt("quantidade_vendida"));
 
                 vet.add(c);
 

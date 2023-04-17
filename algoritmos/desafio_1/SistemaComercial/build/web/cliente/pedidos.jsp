@@ -42,6 +42,7 @@
 <style>
     * {
         font-family: system-ui;
+        text-align: center;
     }
 
     form {
@@ -120,7 +121,9 @@
         </div>
 
         <h1>Meus pedidos</h1>
-
+        <%
+            if(pedidos.size() > 0) {
+        %>
         <table style="collapse: collapse; border: 1px black">
             <thead>
             <th>Id do pedido:</th>
@@ -147,6 +150,11 @@
         %>
     </tbody>
 </table>
+    <%
+        } else {
+            out.println("Você não realizou nenhum pedido ainda.");
+        }
+    %>
 </body>
 </html>
 

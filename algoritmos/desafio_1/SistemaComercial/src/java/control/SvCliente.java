@@ -43,9 +43,9 @@ public class SvCliente extends HttpServlet {
             s_senha = request.getParameter("senha");
 
             Cliente c = new Cliente();
-
-            if (s_nome == null || s_email == null || s_cpf == null || s_telefone == null || s_senha == null) {
-                response.sendRedirect("cliente/sign_up.jsp?empty=true");
+            
+            if (s_nome == "" || s_email == "" || s_cpf == "" || s_telefone == "" || s_senha == "") {
+                response.sendRedirect("/SistemaComercial/cliente/sign_up.jsp?empty=true");
             } else {
                 c.setNome(s_nome);
                 c.setEmail(s_email);
@@ -82,7 +82,7 @@ public class SvCliente extends HttpServlet {
 
             Cliente c = new Cliente();
 
-            if (s_nome == null || s_email == null || s_cpf == null || s_telefone == null || s_senha == null) {
+            if (s_nome == "" || s_email == "" || s_cpf == "" || s_telefone == "" || s_senha == "") {
                 response.sendRedirect("cliente/sign_up.jsp?empty=true");
             } else {
                 c.setCod_cliente(Integer.parseInt(s_cod_cliente));

@@ -56,6 +56,14 @@
         <title>Criar conta</title>
     </head>
     <body>
+        <%
+            String compare = "true";
+            String aux = request.getParameter("empty");
+
+            if(compare.equals(aux)) {
+                out.print("<h3 style=\"color: red; padding-top: 1rem\">Preencha todos os campos.</h3>");
+            }
+        %>
         <form method="POST" action="/SistemaComercial/SvCliente">
             <h1>Criar conta</h1>
             <div>
@@ -79,7 +87,7 @@
             </div><br>
             <div>
                 <h3>Senha:</h3>
-                <input type="text" name="senha"/>
+                <input type="password" name="senha"/>
             </div><br>
             <div>
                 <input type="submit" value="Submit">
