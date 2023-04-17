@@ -7,6 +7,7 @@
  - [PHP](https://www.php.net/)
  - [Laravel](https://laravel.com/)
  - [Bootstrap](https://getbootstrap.com/)
+ - [MySQL](https://www.mysql.com/)
 
 
 ## Experiência com o desenvolvimento
