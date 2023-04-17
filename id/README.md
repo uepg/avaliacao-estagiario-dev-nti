@@ -6,7 +6,7 @@ Nome: Cleberton Kobay dos Santos
 
 E-mail: clebertonkobay@gmail.com
 
-Telefone: (42) 984231500
+Telefone: (42) 98423-1500
 
 Cidade: Ponta Grossa
 

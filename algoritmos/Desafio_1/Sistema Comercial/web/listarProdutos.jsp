@@ -11,7 +11,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <title>Listagem de Produtos</title>
     </head>
-    <body style="background-color: gray">
+    <body style="background-color: white">
         <header >
             <nav class="navbar navbar-expand-lg bg-black bg-gradient border" data-bs-theme="dark">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -28,7 +28,7 @@
             <h2 style="text-align: center; margin:20px 0">Listar - Produtos</h2>
         </header>
         
-        <table class="table table-dark table-striped" style="max-width: 80vw; margin: auto; " border="1">
+        <table class="table table-dark table-striped" style="max-width: 80vw; margin: 20px auto; " border="1">
             <thead>
                 <tr>
                     <th>NOME</th>

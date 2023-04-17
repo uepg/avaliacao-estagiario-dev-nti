@@ -13,7 +13,7 @@
         Cliente c = d.getById(request.getParameter("id"));
     %>
     
-    <body style="background-color: gray">
+    <body style="background-color: white">
        <header >
             <nav class="navbar navbar-expand-lg bg-black bg-gradient border" data-bs-theme="dark">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </nav>
-            <h2 style="text-align: center; margin:20px 0">ALterar - Clientes</h2>
+            <h2 style="text-align: center; margin:20px 0">Alterar - Clientes</h2>
         </header>
         
         <fieldset style="width: 50vw; margin: auto" >

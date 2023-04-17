@@ -14,20 +14,31 @@
         Produto p = d.getById(request.getParameter("id"));
     %>
     
-    <body>
-       <header style="display: flex; justify-content: space-between; ">
-            <h2>Alterar - Produtos</h2>
-            <a class="btn btn-primary" style="display: flex; align-items: center" href="/SistemaComercial">Voltar</a>
+    <body style="background-color: white">
+       <header >
+            <nav class="navbar navbar-expand-lg bg-black bg-gradient border" data-bs-theme="dark">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="cadCliente.jsp">Cadastrar Cliente</a>
+                        <a class="nav-link" href="listarClientes.jsp">Listar Clientes</a>
+                        <a class="nav-link" href="cadProduto.jsp">Cadastrar Produto</a>
+                        <a class="nav-link" href="listarProdutos.jsp">Listar Produtos</a>
+                        <a class="nav-link" href="vender.jsp">Vender</a>
+                        <a class="nav-link" href="listarVendas.jsp">Listar Vendas</a>
+                    </div>
+                </div>
+            </nav>
+            <h2 style="text-align: center; margin:20px 0">Alerar - Produto</h2>
         </header>
         
         <fieldset style="width: 50vw; margin: auto" >
             <legend></legend>
-        <form class="form-control" action="/SistemaComercial/SvProduto" method="POST">
+        <form class="form-control" data-bs-theme="dark" action="/SistemaComercial/SvProduto" method="POST">
             <label for="nome">Nome:</label>
-            <input class="form-control" type="text" name="nome" id="nome" value="<%=p.getNome()%>">
+            <input class="form-control bg-light-subtle" type="text" name="nome" id="nome" value="<%=p.getNome()%>">
             </br>
             <label for="cpf">Valor:</label>
-            <input class="form-control" type="number" name="valor" id="valor" value="<%=p.getValor_unidade()%>">
+            <input class="form-control bg-light-subtle" type="number" name="valor" id="valor" value="<%=p.getValor_unidade()%>">
             </br>
             
             <input type="hidden" name="ACAO" value="ALTERAR"/><br>
