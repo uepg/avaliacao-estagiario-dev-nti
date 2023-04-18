@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animais</title>
+
+    <div id="console"></div>
+</head>
+<body>
+    
+</body>
+<script src="Classes/animal.js"></script>
+<script src="Classes/ave.js"></script>
+<script src="Classes/mamifero.js"></script>
+<script src="Classes/andorinha.js"></script>
+<script src="Classes/cao.js"></script>
+<script src="Classes/cavalo.js"></script>
+<script src="Classes/elefante.js"></script>
+<script src="Classes/galinha.js"></script>
+<script src="Classes/gato.js"></script>
+<script src="Classes/pato.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+function acao (action) {
+    let resposta = action();
+    $('#console').append('<div>'+resposta+'</div>');
+
+}
+
+var mushu = new Cao(4, 10.4);
+var elefante = new Elefante(4, 200);
+
+acao(mushu.comer);
+acao(mushu.andar);
+acao(elefante.comer);
+acao(elefante.andar);
+
+
+</script>
+</html>
