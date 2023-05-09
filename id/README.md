@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Amanada Yohana Vosgerau Campos
 
-E-mail:
+E-mail: amandayohana2303@gmail.com
 
-Telefone:
+Telefone: (42) 9 99037350
 
-Cidade:
+Cidade: Ponta Grossa- PR
 
-Instituição de Ensino:
+Instituição de Ensino: Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 22000323
 
-Curso:
+Curso: Engenharia de Software
 
-Período/Série:
+Período/Série: 2°ano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento:tenho o conhecimento de desenvolvimento web, já realizei projetos, contudo experiência profissional ainda não possuo.
