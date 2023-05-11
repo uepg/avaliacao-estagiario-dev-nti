@@ -1,3 +1,4 @@
+package algoritmos;
 
 import java.util.Scanner;
 
@@ -32,17 +33,17 @@ public class Main {
             productsArray[i].valorUnitario);
         }
 
-        System.out.printf("TOTAL GASTO: R$%.2f", totalGasto);
+        System.out.printf("O gasto total foi de: R$%.2f", totalGasto);
         System.out.println("\n");
-        System.out.println("COMPRAR - 1");
-        System.out.println("FECHAR O PROGRAMA - 2");
-        System.out.print("Insira a sua opcao: ");
+        System.out.println("Para comprar digite 1");
+        System.out.println("Para fechar o programa digite 2");
+        System.out.print("Insira, por gentileza, a sua opcao: ");
         int escolha = sc.nextInt();
         System.out.println();
 
         if(escolha == 1)
         {
-            System.out.println("Qual produto deseja comprar? ");
+            System.out.println("Qual produto é do seu interesse comprar? ");
             escolha = sc.nextInt();
 
             while(escolha < 0 || escolha > qtdProdutos - 1)
@@ -60,7 +61,7 @@ public class Main {
             productsArray[escolha].Vender(quantidadeVendida);
         } else if(escolha == 2) System.exit(0);
 
-        System.out.println("Digite 1 para voltar ao menu");
+        System.out.println("Digite 1 para retornar ao menu");
         System.out.println("Digite 2 para fechar o programa");
         escolha = sc.nextInt();
 
