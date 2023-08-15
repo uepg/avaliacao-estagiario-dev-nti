@@ -2,20 +2,20 @@
 
 Altere este arquivo preenchendo os campos:
 
-Nome:
+Nome: Gabriel de Oliveira Gomes
 
-E-mail:
+E-mail: gabrieloliveiragomes247@gmail.com
 
-Telefone:
+Telefone: (42)99874 6596
 
-Cidade:
+Cidade: Ponta Grossa
 
-Instituição de Ensino:
+Instituição de Ensino: UEPG - Universidade Estadual de Ponta Grossa
 
-RA:
+RA: 16321626
 
-Curso:
+Curso: Engenharia de Computação
 
-Período/Série:
+Período/Série: 3º ano
 
-Minha experiencia com desenvolvimento:
+Minha experiencia com desenvolvimento: Considero-a pouca, pois nunca trabalhei na área.
